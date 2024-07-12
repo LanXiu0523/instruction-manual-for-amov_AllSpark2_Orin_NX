@@ -106,7 +106,7 @@ sdkmanager
 
 # （重要！）下载完成后，会跳转至 STEP 04，点击 BACK TO STEP 01（在 FINISH 下面一行灰色小字）
 # STEP 01
-	# PRODUCT CATEGORY: 
+  # PRODUCT CATEGORY: 
   	# Jetson ✅
   # SYSTEM CONFIGURATION: 
   	# Target Hardware: Jetson Orin NX 16GB ✅
