@@ -131,11 +131,8 @@ sdkmanager
 	# Storage Device: NVMe （必须选NVMe！）
 # click Flash
 # waiting ...
-# (if `INSTALLATION FAILED`, click `retry`,
-#     1. same config as above,manual selection may be required;
-#     2.Recovery mode setup)
 
-# SDK Manager is about to install sDK components on yourJetson Nano module
+# SDK Manager is about to install sdk components on your Jetson Nano module
 	# 此时将 NX 用 HDMI 线连接屏幕，连接有线网，查看 NX 的 ip 地址（确保与 Ubuntu主机 在同一个子网）
 		# network ip adress detils
 		# NX lpq@192.168.0.199
