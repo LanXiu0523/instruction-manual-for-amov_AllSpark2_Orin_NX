@@ -12,7 +12,7 @@ ssh ubuntu@192.168.0.170
 - 准备一台 Ubuntu 64位 20.04 或 22.04，可以是虚拟机，剩余空间至少50G，我这里采用 Ubuntu 64位 20.04的虚拟机，称为：**Ubuntu主机**
 - 准备一台 amov AllSpark2 Orin NX，称为：**NX**
 - （可选）一台电脑，方便传文件，称为：**个人电脑**
-- 上述机器需在同一个局域网内，**Ubuntu主机**和**Ubuntu主机**可以是路由器网线连接、Wi-Fi连接，**NX**必须是路由器网线连接 **（重要！）**
+- 上述机器需在同一个局域网内，**Ubuntu主机**和**个人电脑**可以是路由器网线连接、Wi-Fi连接，**NX**必须是路由器网线连接 **（重要！）**
 
 ```
 # network ip adress detils
@@ -131,6 +131,9 @@ sdkmanager
 	# Storage Device: NVMe （必须选NVMe！）
 # click Flash
 # waiting ...
+# (if `INSTALLATION FAILED`, click `retry`,
+#     1. same config as above,manual selection may be required;
+#     2.Recovery mode setup)
 
 # SDK Manager is about to install sDK components on yourJetson Nano module
 	# 此时将 NX 用 HDMI 线连接屏幕，连接有线网，查看 NX 的 ip 地址（确保与 Ubuntu主机 在同一个子网）
