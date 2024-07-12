@@ -181,7 +181,6 @@ chmod 777 ./amov-orin-jetson3630.deb
 sudo apt install ./amov-orin-jetson3630.deb 
 ```
 
-`
 
 
 
@@ -206,11 +205,8 @@ DISTRIB_DESCRIPTION="Ubuntu 22.04.4 LTS"
 
 
 
-
+## refer: 
 ```
-
-
-refer: 
 https://docs.amovlab.com//allspark2-orin/#/src/开发帮助/升级/升级?id=使用sdkmanager-升级适配-ubuntu-2204-jetson-linux-3630（jetpack-60）
 https://bbs.amovlab.com/forum.php?mod=viewthread&tid=44381&highlight=22
 https://developer.nvidia.com/sdk-manager
