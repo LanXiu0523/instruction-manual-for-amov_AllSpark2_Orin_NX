@@ -61,7 +61,8 @@ lsusb
     # Bus 001 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 
 
-# NX 下电，将一根 Micro-B 数据线（或OTG数据线）的 Micro-B 接口（或OTG接口）接在 NX 上，将另一端的 USB 3.0 接口接在 Ubuntu 主机上，NX 按下 REC 按键再接通电源，并保持 3 秒。
+# NX 下电，将一根 Micro-B 数据线（或OTG数据线）的 Micro-B 接口（或OTG接口）接在 NX 上，将另一端的 USB 3.0 接口接在 Ubuntu 主机上
+# NX 按下 REC 按键再接通电源，并保持 3 秒。
 
 lsusb
 # current logs:
