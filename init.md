@@ -120,6 +120,11 @@ sudo apt-get install tensorrt
 dpkg -l tensorrt
 ```
 
+### new torch & torchvision & torchaudio install
+```
+refer: https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
+```
+
 ### pytorch
 
 ```
